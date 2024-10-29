@@ -82,27 +82,27 @@
 
 如图，在只有一个分区的情况下，在确认 C: 分区可用空间足够后，就可以将 C: 分区作为目标操作分区。
 
-![磁盘管理](images/install-diskman.png)
+![磁盘管理](/assets/images/install-diskman.png)
 
 如图，在有多个分区的情况下，找到可用空间较大的分区，将其确定为目标操作分区（此处选定 E:）
 
-![多分区的磁盘管理](images/install-diskman-multipart.png)
+![多分区的磁盘管理](/assets/images/install-diskman-multipart.png)
 
 ### 1.3.3 减小分区大小，预留空间
 
 确定要操作的分区后，右键该分区，单击 “压缩卷…”，弹出 “压缩简单卷” 对话框：
 
-| ![右键菜单](images/install-diskman-contextmenu-shrink.png) | ![压缩卷](images/install-diskman-shrink-dialog.png) |
+| ![右键菜单](/assets/images/install-diskman-contextmenu-shrink.png) | ![压缩卷](/assets/images/install-diskman-shrink-dialog.png) |
 | :---: | :---: |
 | 右键菜单 | “压缩卷” 对话框 |
 
 在 “输入压缩空间量” 一栏中以 MB 为单位输入要预留的大小（1GB - 1024MB，100G 即输入 102400）。图例中，计划预留 256GB，因此填入的数字是 256 × 1024 = 262144MB。
 
-![填入压缩大小](images/install-diskman-shrink-dialog-value.png)
+![填入压缩大小](/assets/images/install-diskman-shrink-dialog-value.png)
 
 点击 “压缩”，被收缩的分区尾部就会多出一段未分配的空间：
 
-![压缩后的未分配空间](images/install-diskman-after-shrinking.png)
+![压缩后的未分配空间](/assets/images/install-diskman-after-shrinking.png)
 
 至此，安装前的准备工作就执行完毕了。
 
@@ -120,7 +120,7 @@
 
 使用专门的程序写入方便快捷，出错点较少，因此通过安同 OS 启动盘制作器写入是最推荐的方式。您可以[在此处下载安装][media-writer]安同 OS 启动盘制作向导：
 
-![镜像写入向导](images/install-mediawriter.png)
+![镜像写入向导](/assets/images/install-mediawriter.png)
 
 启动启动盘制作向导，选择 “下载并写入系统镜像”，然后根据向导的提示选择架构和版本，点击写入即可。请注意选择正确的存储设备。
 
@@ -161,7 +161,7 @@
 
 启动安装盘后，您会看到如下画面的启动菜单：
 
-![启动菜单](images/install-installer-grub-menu.png)
+![启动菜单](/assets/images/install-installer-grub-menu.png)
 
 <p style="text-align:center">
     安同 OS 离线安装盘启动菜单
@@ -178,7 +178,7 @@
 
 安装及维护环境是能够安装和维护系统的环境。安装环境即系统安装向导，维护环境是包含浏览器、分区工具、安装程序等的桌面环境。选择 “Install AOSC OS” 即可进入安装及维护环境。
 
-| ![安装环境](images/install-gui-installer.png) | ![维护环境](images/install-gui-maintenance-desktop.png) |
+| ![安装环境](/assets/images/install-gui-installer.png) | ![维护环境](/assets/images/install-gui-maintenance-desktop.png) |
 |:----------------------------------------------------:|:---------------------------------------------------:|
 |                       安装环境                       |                      维护环境                       |
 
@@ -188,7 +188,7 @@
 
 试用环境是带有完整安同 OS 桌面版的即刻体验 (Live) 环境，供您在安装系统之前先行体验，如验证硬件功能等。选择 “Try AOSC OS Desktop” 即可进入试用环境。您可以像系统刚安装完毕那样使用试用环境。试用环境包含所有桌面版预装的软件。
 
-![试用环境](images/install-live-desktop.png)
+![试用环境](/assets/images/install-live-desktop.png)
 
 <p style="text-align: center">
     与正常安装的系统几乎无异的试用环境
@@ -253,7 +253,7 @@
 
 安装环境启动过程中会显示黄色渐变动画：
 
-![启动画面](images/install-installer-splash.png)
+![启动画面](/assets/images/install-installer-splash.png)
 
 <p style="text-align: center">
     安装环境的启动画面
@@ -261,7 +261,7 @@
 
 安装程序启动需要一定时间，最终会进入安装程序的语言选择界面：
 
-![语言选择](images/install-installer-langsel.png)
+![语言选择](/assets/images/install-installer-langsel.png)
 
 <p style="text-align: center">
     语言选择界面
@@ -269,7 +269,7 @@
 
 选择您希望在系统中使用的语言，然后点击 “下一步” 进入安装程序菜单。
 
-![安装选单](images/install-installer-menu.png)
+![安装选单](/assets/images/install-installer-menu.png)
 
 <p style="text-align: center">
     安装程序菜单
@@ -277,7 +277,7 @@
 
 选择 “安装 AOSC OS”，即可进入安装向导。
 
-![欢迎页](images/install-installer-welcome.png)
+![欢迎页](/assets/images/install-installer-welcome.png)
 
 <p style="text-align: center">
     安装向导的欢迎页
@@ -295,7 +295,7 @@
 - 桌面版 (NVIDIA)：预置 NVIDIA 驱动的桌面版，安装后可直接使用独显。仅供带有 NVIDIA 显卡的用户使用。
 - 基础版：包含内核、基本系统工具及附件的命令行界面版本。不带任何图形界面。
 
-![版本选择](images/install-installer-variant.png)
+![版本选择](/assets/images/install-installer-variant.png)
 
 选择要安装的版本，然后点击 “下一步” 来到存储选择界面。
 
@@ -303,7 +303,7 @@
 
 在这里会列出您设备上安装的所有硬盘。如您设备上安装有多块硬盘，您可能需要通过容量及型号辨认。
 
-![存储选择](images/install-installer-disksel.png)
+![存储选择](/assets/images/install-installer-disksel.png)
 
 选定要安装的硬盘后，点击 “下一步”，进入分区界面。
 
@@ -311,7 +311,7 @@
 
 分区选择界面用于选择要安装的分区。取决于您的安装方式，您需要根据下文说明来操作：
 
-![分区选择](images/install-installer-partsel-without-ext4.png)
+![分区选择](/assets/images/install-installer-partsel-without-ext4.png)
 
 #### 虚拟机安装及单系统的实机安装
 
@@ -330,23 +330,23 @@
 
 点击 “管理分区…”，安装程序会打开 GParted 分区管理工具。
 
-![GParted](images/install-gparted.png)
+![GParted](/assets/images/install-gparted.png)
 
 GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬盘空间，如果未看到，请在界面右上角的下拉菜单中选择其他硬盘。
 
 右键单击 “未分配” 空间，选择 “新建”，打开新建分区对话框。
 
-| ![右键菜单](images/install-gparted-contextmenu.png) |  ![创建新分区](images/installer-gparted-newpart-dialog.png) |
+| ![右键菜单](/assets/images/install-gparted-contextmenu.png) |  ![创建新分区](/assets/images/installer-gparted-newpart-dialog.png) |
 |:---:|:---:|
 | 右键弹出菜单 | “创建新分区” 对话框 |
 
 对话框会自动按照空闲空间填入分区大小等参数。点击 “添加”，可以看到 “未分配” 空间已经被即将创建的新分区占用，界面下半部分的 “待执行操作” 中也会出现准备执行的新建分区操作。
 
-![准备创建新分区](images/install-gparted-pending.png)
+![准备创建新分区](/assets/images/install-gparted-pending.png)
 
 点击界面顶部的绿色勾形按钮，在对话框中点击 “应用”。等待稍后新分区即添加至硬盘中。
 
-| ![确认操作](images/install-gparted-apply-confirm.png) | ![建立新分区后](images/install-gparted-after-newpart.png) |
+| ![确认操作](/assets/images/install-gparted-apply-confirm.png) | ![建立新分区后](/assets/images/install-gparted-after-newpart.png) |
 |:--: | :--: |
 | 确认操作对话框 | 应用操作后建立的新分区 |
 
@@ -359,13 +359,13 @@ GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬
 > [!NOTE]
 > 如果安装程序仍旧在等待 GParted 退出，请点击 “上一步” 重新选择硬盘回到分区选择界面。
 
-![有 ext4 分区的分区界面](images/install-installer-partsel-with-ext4.png)
+![有 ext4 分区的分区界面](/assets/images/install-installer-partsel-with-ext4.png)
 
 ### 4.2.4 填写用户信息
 
 点击 “下一步” 后，安装程序进入用户信息界面。
 
-![用户信息](images/install-installer-user.png)
+![用户信息](/assets/images/install-installer-user.png)
 
 在这里您需要输入您的用户信息：
 
@@ -388,7 +388,7 @@ GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬
 
 主机名遵循域名的格式要求。主机名可以是大小写英文字母、数字及短横线 (“-”)。主机名还会展示在您的终端上，因此请谨慎使用预生成的名称。
 
-![主机名](images/install-installer-hostname.png)
+![主机名](/assets/images/install-installer-hostname.png)
 
 为您的设备起好名字后，点击 “下一步”，来到语言及时区界面。
 
@@ -403,7 +403,7 @@ GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬
 > [!NOTE]
 > 如果您设备上有 Windows 操作系统，请在 “时间基准” 下拉框中选择 “以硬件时钟为基准”，否则在您自安同 OS 重启后 Windows 的系统时钟会出现偏移。
 
-![语言及时区](images/install-installer-locale.png)
+![语言及时区](/assets/images/install-installer-locale.png)
 
 设置完毕后点击 “下一步”，来到交换空间设置界面。
 
@@ -420,7 +420,7 @@ GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬
 >
 > 如果没有交换空间，系统会在内存将满时强制停止程序，系统也会出现严重的卡顿及不稳定情况。
 
-| ![自动设置交换空间](images/install-installer-swap.png) | ![手动设置交换空间](images/install-installer-swap-manual.png) |
+| ![自动设置交换空间](/assets/images/install-installer-swap.png) | ![手动设置交换空间](/assets/images/install-installer-swap-manual.png) |
 | :---: | :---: |
 | 自动设置交换空间 | 手动设置交换空间 |
 
@@ -430,13 +430,13 @@ GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬
 
 在最终确认界面中，您可以再三确认安装选项。如果其中有任何项目有误，您可以点击 “上一步” 直到对应的界面中，修改其中的设置，再点击 “下一步” 重新回到这里。
 
-![最终确认](images/install-installer-final-confirmation.png)
+![最终确认](/assets/images/install-installer-final-confirmation.png)
 
 ## 4.4 开始安装
 
 在最终确认界面点击 “下一步” 后，安装程序就开始执行安同 OS 的安装过程。
 
-![安装进行中](images/install-installer-inprogress.png)
+![安装进行中](/assets/images/install-installer-inprogress.png)
 
 <p style="text-align:center">
     安装进行中
@@ -446,7 +446,7 @@ GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬
 
 # 五 安装完成
 
-![安装完成](images/install-installer-finish.png)
+![安装完成](/assets/images/install-installer-finish.png)
 
 在许久等待后，安装程序会展示如上界面。恭喜您，安装已经完成！您现在可以拔出您的安装盘，点击 “重启” 即可享受安同 OS 的极致体验！
 
@@ -492,7 +492,7 @@ GParted 界面展示了您硬盘的分区结构。您应看到之前预留的硬
 2. 按下 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> 打开终端。
 3. 执行 `sudo efibootmgr`。
 4. 找到 “AOSC OS” 及 “Windows Boot Manager” 对应的数字，如图，AOSC OS 对应 `Boot0006`，Windows 对应 `Boot0005`。
-    ![efibootmgr](images/install-postinstall-efibootmgr.png)
+    ![efibootmgr](/assets/images/install-postinstall-efibootmgr.png)
 5. 找到 `BootOrder` 一行，然后将 Windows 对应的数字提前。如图例，提前后的 `BootOrder` 应为 `0005,0006,0000,0001,0002,0003`。
 6. 执行 `sudo efibootmgr --bootorder 提前后的BootOrder`；您可以省去前边的 “0”，如 `sudo efibootmgr --bootorder 5,6,0,1,2,3`。
 
