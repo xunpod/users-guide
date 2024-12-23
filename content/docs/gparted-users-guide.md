@@ -3,7 +3,6 @@ title: GParted 磁盘分区工具操作方式
 
 ---
 
-# GParted 磁盘分区工具操作方式
 
 ## 介绍
 GParted 应用程序是 GNOME 分区编辑器，用于创建、重新组织和删除磁盘分区。

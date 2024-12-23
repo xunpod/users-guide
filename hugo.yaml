@@ -1,3 +1,63 @@
+enableInlineShortcodes: true
+defaultContentLanguage: zh-cn
+theme: hextra
 baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+languageCode: zh-cn
+title: 安同 OS 用户手册
+
+outputs:
+  home: [ HTML ]
+  page: [ HTML ]
+  section: [ HTML, RSS ]
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: 社区主页
+      url: https://aosc.io
+      weight: 1
+    - name: 联系我们
+      url: https://aosc.io/contact
+      weight: 2
+    - name: 关于项目
+      url: /docs/about
+      weight: 2
+    - name: Search
+      weight: 4
+      params:
+        type: search
+params:
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: wide
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+  # Search
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: title
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  editURL:
+    enable: true
+    base: "https://github.com/AOSC-Dev/users-guide/edit/master/content"
+description: "安同 OS 用户手册"

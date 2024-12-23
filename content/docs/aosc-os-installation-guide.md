@@ -1,8 +1,11 @@
+---
+title: 安同 OS 安装指南
+
+---
 [aosc-os-sysreq]: https://aosc.io/aosc-os/requirements
 [aosc-dl-center]: https://aosc.io/download
 [media-writer]: https://releases.aosc.io/writer/
 
-# 安同 OS 安装指南
 
 本指南将介绍使用安同 OS 离线安装镜像安装安同 OS 的流程。整个安装过程的总体步骤如下：
 

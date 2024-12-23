@@ -3,15 +3,10 @@ title: KDE桌面环境常用操作
 
 ---
 
-# KDE 桌面常用操作
-
-[TOC]
-
-## 介绍
 
 KDE，即 K 桌面环境，全称 K Desktop Environment。它是一款著名的运行于 Linux、Unix 以及 BSD 等类 UNIX 操作系统上的自由图形桌面环境，整个桌面环境均使用 Qt 程序库开发。KDE 是 Linux 操作系统上流行的桌面环境之一。
 
-安同 OS 桌面版使用了 KDE 桌面环境。
+安同 OS 桌面版搭载 KDE 桌面环境。
 
 ## 登录界面
 
